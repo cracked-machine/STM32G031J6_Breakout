@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/chrisjsutton@uk.ibm.com/Projects/Hardware/STM32G031J6_Breakout/STM32G031J6_Breakout.sch</source>
-    <date>Monday, 09 November 2020 at 21:49:28</date>
+    <date>Monday, 09 November 2020 at 22:01:01</date>
     <tool>Eeschema (5.1.7-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,6 +26,7 @@
       <fields>
         <field name="Mfr.">STMicroelectronics</field>
         <field name="Mfr. Part No.">STM32G031J8M</field>
+        <field name="Series">~</field>
       </fields>
       <libsource lib="STM32G031" part="STM32G031JxM" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -48,6 +49,11 @@
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAA07E8</tstamp>
@@ -56,6 +62,11 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAA1622</tstamp>
@@ -67,6 +78,7 @@
       <fields>
         <field name="Mfr.">Seaward Electronics</field>
         <field name="Mfr. Part No.">SE8233X2</field>
+        <field name="Series">~</field>
       </fields>
       <libsource lib="Regulator_Linear" part="MCP1700-3302E_SOT23" description="250mA Low Quiscent Current LDO, 3.3V output, SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
@@ -76,6 +88,11 @@
       <value>1uF 50V</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAAC8CD</tstamp>
@@ -84,6 +101,11 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAACFA0</tstamp>
@@ -92,6 +114,11 @@
       <value>Conn_01x04</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAD5403</tstamp>
@@ -103,6 +130,7 @@
       <fields>
         <field name="Mfr.">Panasonic</field>
         <field name="Mfr. Part No."> EVQPUK02K</field>
+        <field name="Series">~</field>
       </fields>
       <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -112,6 +140,11 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAF1DB1</tstamp>
@@ -120,6 +153,11 @@
       <value>Conn_01x05</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mfr.">~</field>
+        <field name="Mfr. Part No.">~</field>
+        <field name="Series">~</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB2D17B</tstamp>

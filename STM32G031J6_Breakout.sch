@@ -23,6 +23,7 @@ F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5150 4050 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1fba/A700000006432306.pdf" H 5150 4050 50  0001 C CNN
 F 4 "STMicroelectronics" H 6000 4050 50  0001 C CNN "Mfr."
 F 5 "STM32G031J8M" H 6000 4050 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 6000 4050 50  0001 C CNN "Series"
 	1    6000 4050
 	1    0    0    -1  
 $EndComp
@@ -124,6 +125,9 @@ F 0 "C4" H 6165 6746 50  0000 L CNN
 F 1 "4.7uF" H 6165 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6088 6550 50  0001 C CNN
 F 3 "~" H 6050 6700 50  0001 C CNN
+F 4 "~" H 6050 6700 50  0001 C CNN "Mfr."
+F 5 "~" H 6050 6700 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 6050 6700 50  0001 C CNN "Series"
 	1    6050 6700
 	1    0    0    -1  
 $EndComp
@@ -143,6 +147,9 @@ F 0 "C3" H 5500 6750 50  0000 L CNN
 F 1 "100nF" H 5400 6650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5788 6550 50  0001 C CNN
 F 3 "~" H 5750 6700 50  0001 C CNN
+F 4 "~" H 5750 6700 50  0001 C CNN "Mfr."
+F 5 "~" H 5750 6700 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 5750 6700 50  0001 C CNN "Series"
 	1    5750 6700
 	1    0    0    -1  
 $EndComp
@@ -178,6 +185,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 2175 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Seaward-Elec-SE8233X2_C437587.pdf" H 4700 1950 50  0001 C CNN
 F 4 "SE8233X2" H 4700 1950 50  0001 C CNN "Mfr. Part No."
 F 5 "Seaward Electronics" H 4700 1950 50  0001 C CNN "Mfr."
+F 6 "~" H 4700 1950 50  0001 C CNN "Series"
 	1    4700 1950
 	1    0    0    -1  
 $EndComp
@@ -189,6 +197,9 @@ F 0 "C1" H 3750 2200 50  0000 L CNN
 F 1 "1uF 50V" H 3650 2100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4138 2000 50  0001 C CNN
 F 3 "~" H 4100 2150 50  0001 C CNN
+F 4 "~" H 4100 2150 50  0001 C CNN "Mfr."
+F 5 "~" H 4100 2150 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 4100 2150 50  0001 C CNN "Series"
 	1    4100 2150
 	1    0    0    -1  
 $EndComp
@@ -200,6 +211,9 @@ F 0 "C2" H 5050 2200 50  0000 L CNN
 F 1 "1uF" H 4950 2100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5338 2000 50  0001 C CNN
 F 3 "~" H 5300 2150 50  0001 C CNN
+F 4 "~" H 5300 2150 50  0001 C CNN "Mfr."
+F 5 "~" H 5300 2150 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 5300 2150 50  0001 C CNN "Series"
 	1    5300 2150
 	1    0    0    -1  
 $EndComp
@@ -302,6 +316,9 @@ F 0 "J4" H 9480 3942 50  0000 L CNN
 F 1 "Conn_01x04" H 9480 3851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9400 3950 50  0001 C CNN
 F 3 "~" H 9400 3950 50  0001 C CNN
+F 4 "~" H 9400 3950 50  0001 C CNN "Mfr."
+F 5 "~" H 9400 3950 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 9400 3950 50  0001 C CNN "Series"
 	1    9400 3950
 	1    0    0    -1  
 $EndComp
@@ -405,6 +422,7 @@ F 2 "Button_Switch_SMD:Panasonic_EVQPUK_EVQPUB" H 1650 6450 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1f27/0900766b80c05f72.pdf" H 1650 6450 50  0001 C CNN
 F 4 " EVQPUK02K" H 1650 6450 50  0001 C CNN "Mfr. Part No."
 F 5 "Panasonic" H 1650 6450 50  0001 C CNN "Mfr."
+F 6 "~" H 1650 6450 50  0001 C CNN "Series"
 	1    1650 6450
 	1    0    0    -1  
 $EndComp
@@ -435,6 +453,9 @@ F 0 "C5" H 1800 6750 50  0000 L CNN
 F 1 "100nF" H 1700 6650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2088 6550 50  0001 C CNN
 F 3 "~" H 2050 6700 50  0001 C CNN
+F 4 "~" H 2050 6700 50  0001 C CNN "Mfr."
+F 5 "~" H 2050 6700 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 2050 6700 50  0001 C CNN "Series"
 	1    2050 6700
 	1    0    0    -1  
 $EndComp
@@ -477,6 +498,9 @@ F 0 "J1" H 1168 4417 50  0000 C CNN
 F 1 "Conn_01x05" H 1168 4326 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1250 4000 50  0001 C CNN
 F 3 "~" H 1250 4000 50  0001 C CNN
+F 4 "~" H 1250 4000 50  0001 C CNN "Mfr."
+F 5 "~" H 1250 4000 50  0001 C CNN "Mfr. Part No."
+F 6 "~" H 1250 4000 50  0001 C CNN "Series"
 	1    1250 4000
 	-1   0    0    -1  
 $EndComp
