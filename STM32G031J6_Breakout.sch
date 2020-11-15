@@ -22,7 +22,7 @@ F 1 "STM32G031JxM" H 6000 4424 50  0000 C CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5150 4050 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1fba/A700000006432306.pdf" H 5150 4050 50  0001 C CNN
 F 4 "STMicroelectronics" H 6000 4050 50  0001 C CNN "Mfr."
-F 5 "STM32G031J8M" H 6000 4050 50  0001 C CNN "Mfr. Part No."
+F 5 "STM32G031J6M6" H 6000 4050 50  0001 C CNN "Mfr. Part No."
 F 6 "~" H 6000 4050 50  0001 C CNN "Series"
 	1    6000 4050
 	1    0    0    -1  

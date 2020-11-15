@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/chrisjsutton@uk.ibm.com/Projects/Hardware/STM32G031J6_Breakout/STM32G031J6_Breakout.sch</source>
-    <date>Monday, 09 November 2020 at 22:01:01</date>
-    <tool>Eeschema (5.1.7-0-10_14)</tool>
+    <source>/home/chris/Projects/Hardware/STM32G031J6_Breakout/STM32G031J6_Breakout.sch</source>
+    <date>Sun 15 Nov 2020 23:08:37 GMT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -25,7 +25,7 @@
       <datasheet>https://docs.rs-online.com/1fba/A700000006432306.pdf</datasheet>
       <fields>
         <field name="Mfr.">STMicroelectronics</field>
-        <field name="Mfr. Part No.">STM32G031J8M</field>
+        <field name="Mfr. Part No.">STM32G031J6M6</field>
         <field name="Series">~</field>
       </fields>
       <libsource lib="STM32G031" part="STM32G031JxM" description=""/>
@@ -295,87 +295,87 @@
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+      <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
     </library>
     <library logical="STM32G031">
-      <uri>/Users/chrisjsutton@uk.ibm.com/Projects/Hardware/STM32G031J6_Breakout/../KicadLibrary/symbol/MCU/STM32G031.lib</uri>
+      <uri>/home/chris/Projects/Hardware/STM32G031J6_Breakout/../KicadLibrary/symbol/MCU/STM32G031.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/PB7">
-      <node ref="U2" pin="1"/>
-      <node ref="J1" pin="2"/>
+    <net code="1" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="2" name="/PA8">
+    <net code="2" name="/SWCLK">
+      <node ref="J3" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="3" name="/SWDIO">
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="4" name="/PA12">
+      <node ref="U2" pin="6"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="5" name="/PA8">
       <node ref="J4" pin="4"/>
       <node ref="U2" pin="5"/>
     </net>
-    <net code="3" name="/PA12">
-      <node ref="J4" pin="3"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="4" name="+3V3">
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="5" name="/SWDIO">
-      <node ref="U2" pin="7"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="6" name="/SWCLK">
-      <node ref="J4" pin="1"/>
-      <node ref="J3" pin="4"/>
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="7" name="Net-(J3-Pad6)">
+    <net code="6" name="Net-(J3-Pad6)">
       <node ref="J3" pin="6"/>
     </net>
-    <net code="8" name="Net-(J3-Pad7)">
-      <node ref="J3" pin="7"/>
-    </net>
-    <net code="9" name="Net-(J3-Pad8)">
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="10" name="GNDS">
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="J3" pin="9"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J3" pin="3"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="11" name="/NRST">
-      <node ref="U2" pin="4"/>
-      <node ref="J3" pin="10"/>
+    <net code="7" name="/NRST">
       <node ref="SW1" pin="2"/>
       <node ref="C5" pin="1"/>
+      <node ref="U2" pin="4"/>
       <node ref="J1" pin="5"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="8" name="/PB7">
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="9" name="GNDS">
+      <node ref="U1" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="9"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
     </net>
     <net code="12" name="/VIN">
       <node ref="J1" pin="1"/>
-      <node ref="C1" pin="1"/>
       <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
     </net>
   </nets>
 </export>

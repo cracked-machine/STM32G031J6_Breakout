@@ -1,5 +1,5 @@
 Reference, Value, Footprint, Datasheet, Mfr., Mfr. Part No., Series
-"U2","STM32G031JxM","Package_SO:SO-8_5.3x6.2mm_P1.27mm","https://docs.rs-online.com/1fba/A700000006432306.pdf","STMicroelectronics","STM32G031J8M","~"
+"U2","STM32G031JxM","Package_SO:SO-8_5.3x6.2mm_P1.27mm","https://docs.rs-online.com/1fba/A700000006432306.pdf","STMicroelectronics","STM32G031J6M6","~"
 "J3","Conn_02x05_Odd_Even","Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD","https://docs.rs-online.com/75e3/0900766b8142184e.pdf","Amphenol","20021121-00010C4LF","Minitek127"
 "C4","4.7uF","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","~","~","~","~"
 "C3","100nF","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","~","~","~","~"
